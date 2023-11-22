@@ -6,8 +6,8 @@ import 'model/Model.dart';
 
 Future<List<Model>> getModel() async{
 
-  const String username = 'pms_user';
-  const String password = 'pmsuser';
+  const String username = '';
+  const String password = '';
   var url = Uri.parse('http://13.229.233.203/apiman/index.php/datalayer/general');
   // Create the request headers for basic authentication
   final Map<String, String> headers = {
